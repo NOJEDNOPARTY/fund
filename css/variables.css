@@ -1,0 +1,9 @@
+:root {
+  --yellow: #F8EA22;
+  --black: #000;
+  --black-50: rgba(0, 0, 0, 0.5);
+  --black-80: rgba(0, 0, 0, 0.8);
+  --gray: #D9D9D9;
+  --white: #fff;
+  --blue: #0404FB;
+}

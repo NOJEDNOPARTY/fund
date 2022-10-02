@@ -1,0 +1,86 @@
+.wrapper {
+	width: 100%;
+	max-width: 1347px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+	.wrapper {
+		padding: 0 40px;
+	}
+}
+
+.btn {
+	display: inline-block;
+  padding: 0 15px;
+	font-family: 'e-Ukraine Head';
+	font-style: normal;
+	font-weight: 400;
+  font-size: 12px;
+  line-height: 53px;
+  text-align: center;
+  color: var(--black);
+  background: var(--yellow);
+	border-radius: 100px;
+  transition: 0.3s ease;
+}
+
+@media (min-width: 768px) {
+	.btn {
+		padding: 0 30px;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 1201px) {
+	.btn:hover {
+		color: var(--white);
+		background: var(--blue);
+	}
+}
+
+.link-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.link-row:not(:last-child) {margin-bottom: 30px;}
+
+.link-row-icon {
+	display: block;
+	width: 24px;
+	min-width: 24px;
+	margin-right: 6px;
+}
+
+.link-row-icon img {max-width: 100%;}
+
+.link-row-text {
+	font-family: 'e-Ukraine';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 26px;
+	color: var(--black);
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 53px;
+	min-width: 53px;
+	height: 53px;
+	border-radius: 50%;
+	background: var(--blue);
+}
+
+.social a:not(:last-child) {margin-right: 11px;}

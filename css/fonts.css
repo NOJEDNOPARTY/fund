@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Bold.eot');
+    src: url('./fonts/e-Ukraine-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Bold.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Bold.woff') format('woff'),
+        url('./fonts/e-Ukraine-Bold.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Bold.svg#e-Ukraine-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-UltraLight.eot');
+    src: url('./fonts/e-Ukraine-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-UltraLight.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-UltraLight.woff') format('woff'),
+        url('./fonts/e-Ukraine-UltraLight.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-UltraLight.svg#e-Ukraine-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Thin.eot');
+    src: url('./fonts/e-UkraineHead-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Thin.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Thin.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Thin.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Thin.svg#e-UkraineHead-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Regular.eot');
+    src: url('./fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('./fonts/Gilroy-Regular.woff') format('woff'),
+        url('./fonts/Gilroy-Regular.ttf') format('truetype'),
+        url('./fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-ExtraBold.eot');
+    src: url('./fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('./fonts/Gilroy-ExtraBold.ttf') format('truetype'),
+        url('./fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Light.eot');
+    src: url('./fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Light.woff2') format('woff2'),
+        url('./fonts/Gilroy-Light.woff') format('woff'),
+        url('./fonts/Gilroy-Light.ttf') format('truetype'),
+        url('./fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Thin.eot');
+    src: url('./fonts/e-Ukraine-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Thin.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Thin.woff') format('woff'),
+        url('./fonts/e-Ukraine-Thin.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Thin.svg#e-Ukraine-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Regular.eot');
+    src: url('./fonts/e-UkraineHead-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Regular.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Regular.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Regular.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Regular.svg#e-UkraineHead-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-RegularItalic.eot');
+    src: url('./fonts/Gilroy-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-RegularItalic.woff2') format('woff2'),
+        url('./fonts/Gilroy-RegularItalic.woff') format('woff'),
+        url('./fonts/Gilroy-RegularItalic.ttf') format('truetype'),
+        url('./fonts/Gilroy-RegularItalic.svg#Gilroy-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Light.eot');
+    src: url('./fonts/e-Ukraine-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Light.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Light.woff') format('woff'),
+        url('./fonts/e-Ukraine-Light.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Light.svg#e-Ukraine-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Bold.eot');
+    src: url('./fonts/e-UkraineHead-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Bold.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Bold.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Bold.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Bold.svg#e-UkraineHead-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold.eot');
+    src: url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('./fonts/Gilroy-Bold.woff') format('woff'),
+        url('./fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('./fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Light.eot');
+    src: url('./fonts/e-UkraineHead-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Light.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Light.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Light.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Light.svg#e-UkraineHead-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Medium.eot');
+    src: url('./fonts/e-Ukraine-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Medium.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Medium.woff') format('woff'),
+        url('./fonts/e-Ukraine-Medium.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Medium.svg#e-Ukraine-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Light_1.eot');
+    src: url('./fonts/e-Ukraine-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Light_1.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Light_1.woff') format('woff'),
+        url('./fonts/e-Ukraine-Light_1.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Light_1.svg#e-Ukraine-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Thin_1.eot');
+    src: url('./fonts/e-UkraineHead-Thin_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Thin_1.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Thin_1.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Thin_1.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Thin_1.svg#e-UkraineHead-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Regular_1.eot');
+    src: url('./fonts/e-UkraineHead-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Regular_1.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Regular_1.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Regular_1.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Regular_1.svg#e-UkraineHead-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-UltraLight_1.eot');
+    src: url('./fonts/e-Ukraine-UltraLight_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-UltraLight_1.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-UltraLight_1.woff') format('woff'),
+        url('./fonts/e-Ukraine-UltraLight_1.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-UltraLight_1.svg#e-Ukraine-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Thin_1.eot');
+    src: url('./fonts/e-Ukraine-Thin_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Thin_1.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Thin_1.woff') format('woff'),
+        url('./fonts/e-Ukraine-Thin_1.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Thin_1.svg#e-Ukraine-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Regular_1.eot');
+    src: url('./fonts/Gilroy-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Regular_1.woff2') format('woff2'),
+        url('./fonts/Gilroy-Regular_1.woff') format('woff'),
+        url('./fonts/Gilroy-Regular_1.ttf') format('truetype'),
+        url('./fonts/Gilroy-Regular_1.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Bold_1.eot');
+    src: url('./fonts/e-UkraineHead-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Bold_1.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Bold_1.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Bold_1.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Bold_1.svg#e-UkraineHead-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Light_1.eot');
+    src: url('./fonts/Gilroy-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Light_1.woff2') format('woff2'),
+        url('./fonts/Gilroy-Light_1.woff') format('woff'),
+        url('./fonts/Gilroy-Light_1.ttf') format('truetype'),
+        url('./fonts/Gilroy-Light_1.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold_1.eot');
+    src: url('./fonts/Gilroy-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Bold_1.woff2') format('woff2'),
+        url('./fonts/Gilroy-Bold_1.woff') format('woff'),
+        url('./fonts/Gilroy-Bold_1.ttf') format('truetype'),
+        url('./fonts/Gilroy-Bold_1.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Bold_1.eot');
+    src: url('./fonts/e-Ukraine-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Bold_1.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Bold_1.woff') format('woff'),
+        url('./fonts/e-Ukraine-Bold_1.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Bold_1.svg#e-Ukraine-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine Head';
+    src: url('./fonts/e-UkraineHead-Light_1.eot');
+    src: url('./fonts/e-UkraineHead-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-UkraineHead-Light_1.woff2') format('woff2'),
+        url('./fonts/e-UkraineHead-Light_1.woff') format('woff'),
+        url('./fonts/e-UkraineHead-Light_1.ttf') format('truetype'),
+        url('./fonts/e-UkraineHead-Light_1.svg#e-UkraineHead-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-ExtraBold_1.eot');
+    src: url('./fonts/Gilroy-ExtraBold_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-ExtraBold_1.woff2') format('woff2'),
+        url('./fonts/Gilroy-ExtraBold_1.woff') format('woff'),
+        url('./fonts/Gilroy-ExtraBold_1.ttf') format('truetype'),
+        url('./fonts/Gilroy-ExtraBold_1.svg#Gilroy-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('./fonts/e-Ukraine-Medium_1.eot');
+    src: url('./fonts/e-Ukraine-Medium_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/e-Ukraine-Medium_1.woff2') format('woff2'),
+        url('./fonts/e-Ukraine-Medium_1.woff') format('woff'),
+        url('./fonts/e-Ukraine-Medium_1.ttf') format('truetype'),
+        url('./fonts/e-Ukraine-Medium_1.svg#e-Ukraine-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-RegularItalic_1.eot');
+    src: url('./fonts/Gilroy-RegularItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-RegularItalic_1.woff2') format('woff2'),
+        url('./fonts/Gilroy-RegularItalic_1.woff') format('woff'),
+        url('./fonts/Gilroy-RegularItalic_1.ttf') format('truetype'),
+        url('./fonts/Gilroy-RegularItalic_1.svg#Gilroy-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
