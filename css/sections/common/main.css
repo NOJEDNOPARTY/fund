@@ -46,7 +46,7 @@
 	justify-content: center;
 }
 
-.link-row:not(:last-child) {margin-bottom: 30px;}
+.link-row:not(:last-child) {margin-bottom: 21px;}
 
 .link-row-icon {
 	display: block;
@@ -64,6 +64,14 @@
 	font-size: 16px;
 	line-height: 26px;
 	color: var(--black);
+}
+
+@media (min-width: 1200px) {
+  .link-row:not(:last-child) {margin-bottom: 30px;}
+
+  a.link-row:hover .link-row-text {
+    color: var(--blue);
+  }
 }
 
 .social {
@@ -84,3 +92,25 @@
 }
 
 .social a:not(:last-child) {margin-right: 11px;}
+
+.title {
+  margin-bottom: 30px;
+  font-family: 'e-Ukraine Head';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: var(--black);
+}
+
+.title span {
+  color: var(--yellow);
+}
+
+@media (min-width: 768px) {
+  .title {
+    margin-bottom: 40px;
+    font-size: 64px;
+    line-height: 77px;
+  }
+}

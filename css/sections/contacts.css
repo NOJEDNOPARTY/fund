@@ -1,0 +1,186 @@
+.contacts {
+  padding: 109px 0 120px;
+  background-image: url('../../images/c-left.png'), url('../../images/c-right.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center left, center right;
+}
+
+.contacts-cnt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 864px;
+  margin: 0 auto;
+}
+
+.contacts .link-row {
+  justify-content: flex-start;
+}
+
+.contacts-form {
+  width: 100%;
+  max-width: 450px;
+  margin-right: 15px;
+}
+
+.contacts-info {
+  width: 100%;
+  max-width: 355px;
+}
+
+.contacts-form form {width: 100%;}
+
+.form-field {
+  position: relative;
+  display: block;
+}
+
+.contacts-form form .btn {width: 100%;}
+
+.form-field:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.form-field input {
+  display: block;
+  width: 100%;
+  padding: 0 29px;
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 50px;
+  color: var(--black);
+  background: var(--black-12);
+  border-radius: 34px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+.form-field > span {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  bottom: 0;
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 54px;
+  color: var(--black);
+}
+
+.form-field span span {color: var(--yellow);}
+
+.form-field input:focus {
+  border-color: var(--blue);
+}
+
+@media (min-width: 1200px) {
+  .form-field:hover input {
+    border-color: var(--blue);
+  }
+}
+
+.form-field input:focus + span,
+.field.val + span {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.form-field textarea {
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  padding: 14px 29px;
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+  background: var(--black-12);
+  border-radius: 34px;
+  resize: none;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+.form-field textarea:focus {
+  border-color: var(--blue);
+}
+
+@media (min-width: 1200px) {
+  .form-field:hover textarea {
+    border-color: var(--blue);
+  }
+}
+
+.form-field > span {
+  position: absolute;
+  top: 14px;
+  left: 29px;
+  bottom: 0;
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+}
+
+.form-field span span {color: var(--yellow);}
+
+.form-field textarea:focus + span,
+.field.val + span {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+@media (max-width: 1200px) {
+  .contacts {
+    padding: 90px 0;
+    background-position: top left, bottom right;
+  }
+
+  .contacts-cnt {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  } 
+
+  .contacts-form {
+    order: 2;
+    margin: 51px 0 0;
+  }
+
+  .contacts-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    margin-bottom: -43px;
+    padding: 60px 0 103px;
+    background-image: url('../../images/c-mobile-left.png'), url('../../images/c-mobile-right.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 63px left, bottom -91px right;
+  }
+
+  .contacts-form {
+    margin: 30px 0 0;
+  }
+}
