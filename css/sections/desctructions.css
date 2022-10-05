@@ -1,0 +1,213 @@
+.desctructions {
+  padding-bottom: 108px;
+  overflow: hidden;
+}
+
+.desctructions-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.desctructions-top h2 {
+  margin-right: 15px;
+  font-family: 'e-Ukraine Head';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--black);
+}
+
+.desctructions-top p {
+  width: 100%;
+  max-width: 482px;
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--black-80);
+}
+
+.desctructions-top p b {
+  font-weight: 700;
+}
+
+.desctructions-slider .owl-stage-outer {
+  overflow: initial !important;
+}
+
+.desctructions-slider .owl-item:nth-child(2n+2) .desctructions-slider-item {
+  min-width: 536px;
+  width: 536px;
+  max-width: 536px;
+  height: 376px;
+}
+
+.desctructions-slider .owl-item:nth-child(2n+1) .desctructions-slider-item {
+  min-width: 346px;
+  width: 346px;
+  max-width: 346px;
+  height: 493px;
+}
+
+.desctructions-slider .owl-item:nth-child(5n+5) .desctructions-slider-item,
+.desctructions-slider .owl-item:nth-child(1) .desctructions-slider-item {
+  transform: rotate(-1.73deg);
+}
+
+.desctructions-slider .owl-item:nth-child(4n+3) .desctructions-slider-item {
+  transform: rotate(1.73deg);
+}
+
+.desctructions-slider-item-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 493px;
+}
+
+.desctructions-slider-item {
+  cursor: pointer;
+  position: relative;
+  border-radius: 51px;
+  overflow: hidden;
+  margin: 30px;
+}
+
+.desctructions-slider-item-main,
+.desctructions-slider-item-hover img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.desctructions-slider-item-hover {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s linear 0.1s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.desctructions-slider-item-hover div {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 40px;
+  font-family: 'e-Ukraine Head';
+  font-style: normal;
+  line-height: 130%;
+  text-align: center;
+  color: var(--white);
+}
+
+.desctructions-slider-item-hover div p {
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.desctructions-slider-item-hover div span {
+  display: block;
+  width: 100%;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.desctructions-slider-item:hover .desctructions-slider-item-hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 1200px) {
+  .desctructions {
+    padding-bottom: 74px;
+  }
+  
+  .desctructions-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .desctructions-top h2 {
+    width: 100%;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  .desctructions-top p {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 767px)  {
+  .desctructions {
+    padding-bottom: 45px;
+  }
+  
+  .desctructions-top h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  
+  .desctructions-top p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  
+  .desctructions-slider .owl-item:nth-child(2n+2) .desctructions-slider-item {
+    min-width: 265px;
+    width: 265px;
+    max-width: 265px;
+    height: 187px;
+  }
+  
+  .desctructions-slider .owl-item:nth-child(2n+1) .desctructions-slider-item {
+    min-width: 171px;
+    width: 171px;
+    max-width: 171px;
+    height: 244px;
+  }
+  
+  .desctructions-slider-item-wrap {
+    height: 244px;
+  }
+  
+  .desctructions-slider-item {
+    margin: 15px;
+  }
+  .desctructions-slider-item-hover div {
+    padding: 15px 10px;
+  }
+
+  .desctructions-slider-item-hover div p {
+    font-size: 14px;
+  }
+  
+  .desctructions-slider-item-hover div span {
+    font-size: 11px;
+  }
+}

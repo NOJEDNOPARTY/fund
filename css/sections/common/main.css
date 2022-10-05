@@ -26,6 +26,11 @@
   transition: 0.3s ease;
 }
 
+.btn-black {
+	color: var(--white);
+  background: var(--black);
+}
+
 @media (min-width: 768px) {
 	.btn {
 		padding: 0 30px;
@@ -103,6 +108,8 @@
   color: var(--black);
 }
 
+.title.white {color: var(--white);}
+
 .title span {
   color: var(--yellow);
 }
@@ -113,4 +120,62 @@
     font-size: 64px;
     line-height: 77px;
   }
+}
+
+.section-gray {
+	background: var(--gray2);
+}
+.text {
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.text:not(:last-child) {margin-bottom: 31px;}
+
+.text span {color: var(--blue);}
+
+@media (max-width: 1200px) {
+  .text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 14px;
+  }
+  
+  .text:not(:last-child) {margin-bottom: 25px;}
+}
+
+
+.owl-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.owl-dots button {
+	display: block;
+	width: 12px;
+	min-width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: var(--black) !important;
+	transition: 0.3s ease;
+}
+
+.owl-dots button span {display: none;}
+
+.owl-dots button:not(:last-child) {margin-right: 10px;}
+
+.owl-dots button.active {
+	width: 50px;
+	min-width: 50px;
+	border-radius: 16px;
 }

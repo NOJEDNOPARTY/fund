@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 50;
   padding: 0 20px;
 	background-color: var(--white);
 }
@@ -18,12 +20,12 @@
 .logo {
 	display: block;
 	width: 100%;
-	max-width: 102px;
+  max-width: 153px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
 	.logo {
-		max-width: 153px;
+    max-width: 102px;
 	}
 }
 
@@ -212,5 +214,11 @@
   .header.open .header-menu {
     opacity: 1;
     visibility: visible;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-menu {
+    top: 81px;
   }
 }

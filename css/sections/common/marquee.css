@@ -1,0 +1,50 @@
+.marquee {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.marquee-inner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  font-family: 'e-Ukraine Head';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.marquee .marquee-inner > p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+.marquee .marquee-inner > p img {
+  margin: 0 45px;
+}
+
+@media (max-width: 1200px) {
+  .marquee {
+    margin-bottom: 78px;
+  }
+  
+  .marquee-inner {
+    font-size: 75px;
+    line-height: 160%;
+  }
+}
+
+@media (max-width: 767px) {
+  .marquee-inner {
+    font-size: 30px;
+    line-height: 160%;
+  }
+
+  .marquee .marquee-inner > p img {
+    margin: 0 25px;
+    max-height: 50px;
+  }
+}

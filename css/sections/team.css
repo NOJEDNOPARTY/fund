@@ -1,0 +1,95 @@
+.team {
+  padding: 124px 0 108px;
+}
+
+.team-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1101px;
+  margin: 0 auto;
+}
+
+.team-info {
+  width: 100%;
+  max-width: 419px;
+  margin-right: 15px;
+}
+
+.team-img {
+  width: 100%;
+  max-width: 652px;
+}
+
+.team-img img {width: 100%;}
+
+.team-info h3 {
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: var(--black-50);
+}
+
+.team-info h3:not(:last-child) {margin-bottom: 12px;}
+
+.team-info p {
+  max-width: 380px;
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.team-info p:not(:last-child) {margin-bottom: 31px;}
+
+.team-info p span {color: var(--blue);}
+
+@media (max-width: 1200px) {
+  .team {
+    padding: 90px 0;
+  }
+  
+  .team-cnt {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .team-info {
+    order: 2;
+    max-width: 100%;
+    margin-right: 0;
+  }
+  
+  .team-img {
+    margin-bottom: 50px;
+  }
+  
+  .team-info p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .team {
+    padding: 60px 0;
+  }
+  
+  .team-img {
+    margin-bottom: 20px;
+  }
+
+  .team-info p {
+    font-size: 14px;
+  }
+  
+  .team-info p:not(:last-child) {margin-bottom: 25px;}
+}

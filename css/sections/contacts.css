@@ -142,6 +142,11 @@
   visibility: hidden;
 }
 
+form.validate input:invalid,
+form.validate textarea:invalid {
+  border: 2px solid red;
+}
+
 
 @media (max-width: 1200px) {
   .contacts {

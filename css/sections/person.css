@@ -1,0 +1,150 @@
+.person {
+  padding: 110px 0;
+  background-repeat: no-repeat;
+  background-position: top 40px right;
+}
+
+.person-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1118px;
+  margin: 0 auto;
+}
+
+.person-img {
+  width: 100%;
+  max-width: 409px;
+  margin-right: 15px;
+}
+
+.person-img img {width: 100%;}
+
+.person-info {
+  position: relative;
+  width: 100%;
+  max-width: 624px;
+  padding: 30px;
+  background-color: var(--yellow);
+  border-radius: 0 20px 20px 20px;
+}
+
+.person-info::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -15px;
+  display: block;
+  width: 16px;
+  height: 20px;
+  background-image: url('../../images/triangle.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.person-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.person-ava {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.person-ava img {width: 100%;}
+
+.person-text {
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.person-head-short h3,
+.person-head-short h4,
+.person-head-short p {
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+.person-head-short h3:not(:last-child),
+.person-head-short h4:not(:last-child),
+.person-head-short p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.person-head-short h4 {
+  font-weight: 300;
+  color: var(--black-30);
+}
+
+.person-head-short p {
+  font-weight: 300;
+  color:var(--black-2);
+}
+
+@media (max-width: 1200px) {
+  .person {
+    padding: 90px 0;
+    background: none !important;
+  }
+  
+  .person-cnt {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .person-img {
+    margin: 0 auto 60px;
+  }
+  
+  .person-info {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  
+  .person-info::before {
+    top: -15px;
+    left: calc(50% - 18px);
+    width: 36px;
+    height: 16px;
+    background-image: url('../../images/triangle2.svg');
+  }
+}
+
+@media (max-width: 767px) {
+  .person {
+    padding: 60px 0;
+  }
+
+  .person-img {
+    max-width: 340px;
+    margin: 0 auto 35px;
+  }
+  
+  .person-info {
+    padding: 35px 20px;
+  }
+
+  .person-head {
+    margin-bottom: 15px;
+  }
+
+  .person-text {
+    font-size: 14px;
+  }
+}

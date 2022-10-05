@@ -1,0 +1,186 @@
+.goals {
+  margin-bottom: 120px;
+}
+
+.goals-wrap {
+  padding: 134px 20px 87px;
+  background-color: var(--blue);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  border-radius: 30px;
+}
+
+.goals-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 966px;
+  margin: auto;
+}
+
+.goals-head {
+  width: 100%;
+  max-width: 443px;
+  margin-right: 20px;
+}
+
+.goals-head h3,
+.goals-head h4 {
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--white);
+}
+
+.goals-head h3:not(:last-child),
+.goals-head h4:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.goals-head h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--white-50);
+}
+
+.goals .title {
+  margin-bottom: 30px;
+}
+
+.goals-head p {
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--white);
+}
+
+.goals-head p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.goals-list {
+  width: 100%;
+  max-width: 400px;
+}
+
+.goals-list ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+.goals-list ol li {
+  counter-increment: my-awesome-counter;
+  position: relative;
+  padding-left: 69px;
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.goals-list ol li:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.goals-list ol li::before {
+  content: counter(my-awesome-counter) "";
+  position: absolute;
+  top: -14px;
+  left: 0;
+  display: block;
+  width: 54px;
+  min-width: 54px;
+  height: 54px;
+  font-family: 'e-Ukraine Head';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 54px;
+  text-align: center;
+  color: var(--blue);
+  background: #F8EA22;
+  border-radius: 86px;
+}
+
+@media (max-width: 1200px) {
+  .goals {
+    margin-bottom: 90px;
+  }
+  
+  .goals-wrap {
+    padding: 90px 70px;
+  }
+  
+  .goals-cnt {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .goals-head {
+    max-width: 100%;
+    margin: 0 0 40px;
+  }
+  
+  .goals-list {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .goals {
+    margin-bottom: 60px;
+  }
+  
+  .goals-wrap {
+    padding: 40px 20px;
+  }
+
+  .goals-head p {
+    font-size: 14px;
+  }
+
+  .goals-head p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .goals-head .title {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  
+  .goals-head {
+    margin: 0 0 30px;
+  }
+
+  .goals-head h4 {
+    font-size: 18px;
+  }
+
+  .goals-list ol li {
+    padding-left: 55px;
+    font-size: 14px;
+    line-height: 160%;
+  }
+  
+  .goals-list ol li:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  
+  .goals-list ol li::before {
+    top: -9px;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
