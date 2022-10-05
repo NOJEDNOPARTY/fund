@@ -43,6 +43,7 @@ var common = {
 			items: 1,
 			dots: true,
 		});
+
 		$('.desctructions-slider').owlCarousel({
 			loop: false,
 			margin: 0,
@@ -63,6 +64,10 @@ var common = {
 					}
 			}
 		});
+		
+		$('.owl-carousel').on('translated.owl.carousel', function(event) {
+			var bLazy = new Blazy({});
+		})
 	},
 	marquee: function() {
 		function handleMarquee(){
