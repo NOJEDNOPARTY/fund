@@ -21,9 +21,10 @@ var common = {
 			});
 		});
 
-		$('.anchor').click(function(e) {
+		$('.anchor a').click(function(e) {
 			e.preventDefault();
 			var aid = $(this).attr('href');
+			$('.header').removeClass('open');
 			$('html,body').animate({scrollTop: $(aid).offset().top},'500');
 		});
 

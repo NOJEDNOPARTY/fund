@@ -1,6 +1,6 @@
 .banner {
   position: relative;
-  padding: 175px 0 288px;
+  padding: 260px 0 288px;
   overflow: hidden;
 }
 
@@ -126,7 +126,7 @@
 
 @media (max-width: 1200px) {
   .banner {
-    padding: 0 0 90px;
+    padding: 85px 0 90px;
   }
 
   .banner h1 {
@@ -197,7 +197,7 @@
 
 @media (max-width: 767px) {
   .banner {
-    padding: 0 0 60px;
+    padding: 81px 0 60px;
   }
 
   .banner-cnt .earth {
