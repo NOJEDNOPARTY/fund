@@ -20,10 +20,13 @@
 
 .footer-row .logo img {max-width: 100%;}
 
-.footer nav {
+.footer nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .footer nav a {
@@ -37,7 +40,7 @@
   transition: 0.3s ease;
 }
 
-.footer nav a:not(:last-child) {margin-right: 39px;}
+.footer nav ul li:not(:last-child) {margin-right: 39px;}
 
 p.footer-link {
   display: block;
@@ -101,13 +104,13 @@ a.footer-link {
 
   .footer .logo {max-width: 120px;}
 
-  .footer nav {
+  .footer nav ul {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
-  .footer nav a:not(:last-child) {
+  .footer nav ul li:not(:last-child) {
     margin: 0 0 39px;
   }
 }
