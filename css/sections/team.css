@@ -48,7 +48,7 @@
 
 .team-info p:not(:last-child) {margin-bottom: 31px;}
 
-.team-info p span {color: var(--blue);}
+.team-info p strong {color: var(--blue);}
 
 @media (max-width: 1200px) {
   .team {

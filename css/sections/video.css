@@ -51,6 +51,10 @@
   object-position: center;
 }
 
+.video-bg img {
+  display: none;
+}
+
 .video .wrapper {
   max-width: 1224px;
 }
@@ -77,10 +81,16 @@
     text-align: center;
     margin: 0 auto;
   }
+
+  .video-bg .video-bg-mob {display: block;}
+  .video-bg video {display: none;}
 }
 
 @media (max-width: 767px) {
   .video {
     padding: 60px 0;
   }
+
+  .video-bg .video-bg-mob {display: none;}
+  .video-bg .video-bg-tablet {display: block;}
 }
