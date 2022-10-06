@@ -1,16 +1,37 @@
 var common = {
 	init: function() {
+		common.navigation();
+		common.form();
 		common.main();
 		common.owl();
 		common.marquee();
 	},
-	main: function(){
+	navigation: function() {
+		window.onscroll = function() {fixedHeader()};
+		let header = document.querySelector(".header");
+		let sticky = header.offsetTop;
+		
+		function fixedHeader() {
+			if (window.pageYOffset > sticky) {
+				header.classList.add("fixed");
+			} else {
+				header.classList.remove("fixed");
+			}
+		};
 
 		$('.menu-trigger').click(function(event){
 			event.preventDefault();
 			$('.header').toggleClass('open');
 		});
-		
+
+		$('.anchor a').click(function(e) {
+			e.preventDefault();
+			var aid = $(this).attr('href');
+			$('.header').removeClass('open');
+			$('html,body').animate({scrollTop: $(aid).offset().top},'500');
+		});
+	},
+	form: function() {
 		$('.field').on('keyup change', function(e) {
 			$(this).val() != '' ? $(this).addClass('val') : $(this).removeClass('val');
 		});
@@ -21,21 +42,15 @@ var common = {
 			});
 		});
 
-		$('.anchor a').click(function(e) {
-			e.preventDefault();
-			var aid = $(this).attr('href');
-			$('.header').removeClass('open');
-			$('html,body').animate({scrollTop: $(aid).offset().top},'500');
-		});
-
+		$(".phone").mask("+380(99)999-99-99");
+	},
+	main: function(){
 		let bLazy = new Blazy({});
 
 		const date = '2022-02-24T00:00:00.000Z'
 		let currentDate = Date.parse(new Date());
 		let days = (currentDate - Date.parse(date))/86400000;
 		document.querySelector('.timer').textContent = Math.round(days);
-
-		$(".phone").mask("+380(99)999-99-99");
 	},
 	owl: function() {
 		$('.about-slider').owlCarousel({

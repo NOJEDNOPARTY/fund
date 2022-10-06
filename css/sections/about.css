@@ -70,7 +70,7 @@
   border-radius: 51px;
   background-image: url('../../images/about-top-bg.png');
   background-repeat: no-repeat;
-  background-position: top 0 left 65px;
+  background-position: top -129px left 65px;
 }
 
 .team-info .about-top-quote-text {
@@ -118,6 +118,7 @@
   display: inline-block;
   position: relative;
   z-index: 2;
+  font-weight: 400;
 }
 
 .about-bottom {
@@ -263,7 +264,7 @@
   }
   
   .about-top-quote {
-    padding: 50px 20px;
+    padding: 50px 40px;
   }
 
   .about-bottom {
@@ -312,15 +313,17 @@
     padding: 25px 20px;
   }
 
-  .about-top-quote-text {
+  .about-top-quote-text, 
+  .team-info .about-top-quote-text {
     font-size: 18px;
     line-height: 130%;
   }
 
   .about-top-quote::before {
     width: 700px;
-    background-image: none !important;
     border-radius: 30px;
+    background-size: 302px;
+    background-position: top 0 left 173px;
   }
 
   .about-top-quote-text > strong::before {
