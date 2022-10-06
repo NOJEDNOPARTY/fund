@@ -98,7 +98,7 @@
 
 .social a:not(:last-child) {margin-right: 11px;}
 
-.title {
+h2 {
   margin-bottom: 30px;
   font-family: 'e-Ukraine Head';
   font-style: normal;
@@ -108,14 +108,15 @@
   color: var(--black);
 }
 
-.title.white {color: var(--white);}
+h2.white {color: var(--white);}
 
-.title span {
+h2 strong {
+  font-weight: 700;
   color: var(--yellow);
 }
 
 @media (min-width: 768px) {
-  .title {
+  h2 {
     margin-bottom: 40px;
     font-size: 64px;
     line-height: 77px;
@@ -125,7 +126,8 @@
 .section-gray {
 	background: var(--gray2);
 }
-.text {
+
+.text-content p {
   font-family: 'e-Ukraine';
   font-style: normal;
   font-weight: 200;
@@ -134,22 +136,22 @@
   color: var(--black);
 }
 
-.text:not(:last-child) {margin-bottom: 31px;}
+.text-content p:not(:last-child) {margin-bottom: 31px;}
 
-.text span {color: var(--blue);}
+.text-content p strong {color: var(--blue);}
 
 @media (max-width: 1200px) {
-  .text {
+  .text-content p {
     max-width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .text {
+  .text-content p {
     font-size: 14px;
   }
   
-  .text:not(:last-child) {margin-bottom: 25px;}
+  .text-content p:not(:last-child) {margin-bottom: 25px;}
 }
 
 
