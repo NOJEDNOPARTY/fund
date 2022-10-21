@@ -51,6 +51,32 @@ var common = {
 		let currentDate = Date.parse(new Date());
 		let days = (currentDate - Date.parse(date))/86400000;
 		document.querySelector('.timer').textContent = Math.round(days);
+
+		jQuery(function($){
+			$(document).mouseup(function (e){ 
+				var popup = $(".popup");
+				var popupLayout = $(".popup-layout");
+				if (!popup.is(e.target) && popupLayout.is(e.target) 
+					&& popup.has(e.target).length === 0) { 
+					$('.popup-wrapper').removeClass('active');
+					$('body').removeClass('hidden');
+				}
+			});
+		});
+
+		// popups call
+		$('.call-popup').click(function(event){
+			event.preventDefault();
+			var popup  = '#' + $(this).attr('data-popup');
+			$('.popup-wrapper').removeClass('active');
+			$('body').addClass('hidden');
+			$(popup).addClass('active');
+		});
+		
+		$('.popup-close').click(function(){
+			$(this).closest('.popup-wrapper').removeClass('active');
+			$('body').removeClass('hidden');
+		});
 	},
 	owl: function() {
 		$('.about-slider').owlCarousel({
