@@ -77,6 +77,9 @@ var common = {
 			$(this).closest('.popup-wrapper').removeClass('active');
 			$('body').removeClass('hidden');
 		});
+
+		$("video[autoplay]").each(function(){ $(this).get(0).play();});
+		
 	},
 	owl: function() {
 		$('.about-slider').owlCarousel({
