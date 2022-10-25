@@ -78,7 +78,7 @@ var common = {
 			$('body').removeClass('hidden');
 		});
 
-		$("video[autoplay]").each(function(){ $(this).get(0).play();});
+		$("video[autoplay]").each(function(){ this.play(); });
 		
 	},
 	owl: function() {
