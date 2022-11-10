@@ -1,7 +1,7 @@
 @import "./variables.css";
 @import "./libs/normilize/normilize.css";
 @import "./fonts.css";
-@import "./libs/owl/owl.carousel.min.css";
+/* @import "./libs/owl/owl.carousel.min.css";
 @import "./libs/owl/owl.theme.default.min.css";
 @import "./sections/common/main.css";
 @import "./sections/common/marquee.css";
@@ -15,4 +15,41 @@
 @import "./sections/video.css";
 @import "./sections/contacts.css";
 @import "./sections/common/footer.css";
-@import "./sections/common/popup.css";
+@import "./sections/common/popup.css"; */
+
+.bnr-bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bnr-bg::before {
+  content: '';
+  display: block;
+  width: 100%;
+}
+
+.bnr-bg video,
+.bnr-bg img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner {
+
+}

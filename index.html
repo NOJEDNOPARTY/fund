@@ -19,7 +19,17 @@
         <link rel="manifest" href="./images/favicons/site.webmanifest">
     </head>
     <body>
-        <header class="header">
+        <div class="bnr-bg">
+            <video class="banner" id="bnrVideo" class="b-lazy" src="./video/banner.mp4" autoplay muted loop playsinline>
+                <source src="./video/banner.mp4" type="video/mp4">
+            </video>
+        </div>
+        <script>
+            window.addEventListener("DOMContentLoaded", function(){
+                document.querySelector('#bnrVideo').play();
+            });
+        </script>
+        <!-- <header class="header">
             <div class="wrapper">
                 <div class="header-content">
                     <a href="#" class="logo"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./images/logo.svg" alt="logo"></a>
@@ -476,6 +486,6 @@
         <script src="./js/libs/jquery.maskedinput.min.js"></script>
         <script src="./js/libs/owlcarousel/owl.carousel.min.js"></script>
         <script src="./js/libs/blazy.min.js"></script>
-        <script src="./js/app.js"></script>
+        <script src="./js/app.js"></script> -->
     </body>
 </html>
